@@ -37,6 +37,9 @@ Only the RST pin is different for each
 | 3.3V | 1     | 3V3        |
 
 === RST pins per reader (A,B,C) ===
+
+| Name | Pin # | Pin name   |
+|:------:|:-------:|:------------:|
 | RST_A| 15    | GPIO22     |
 | RST_B| 18    | GPIO24     |
 | RST_C| 22    | GPIO25     |
