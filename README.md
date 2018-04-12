@@ -7,14 +7,16 @@ The file MFRC522.py is only slightly changed to not include the activation of NR
 By changing this pin's state directly in the code we are able to switch between several different RFID readers.
 The RST pin on all inactive cards must be set LOW. Only one at a time may be set HIGH so as to read it without disturbance from the other connected readers.
 
-Pydub is being used to read audio files as response to RFID tag recognition. Run the following in terminal to install: "pip install pydub"
+Pydub is being used to read audio files as response to RFID tag recognition. Run the following in terminal to install:
+"pip install pydub"
 
 The following information is modified from the readme file provided by mxgxw.
 read, write, and dump data from a chip
 
 MFRC522-python
 ==============
-Copyright 2014,2018 Mario Gomez <mario.gomez@teubi.co> 
+Copyright 2014,2018 Mario Gomez <mario.gomez@teubi.co>
+ 
 A small class to interface with the NFC reader Module MFRC522 on the Raspberry Pi.
 This is a Python port of the example code for the NFC module MF522-AN.
 
@@ -47,9 +49,6 @@ Only the RST pin is different for each
 | RST_A| 15    | GPIO22     |
 | RST_B| 18    | GPIO24     |
 | RST_C| 22    | GPIO25     |
-
-## Usage
-Import the class by importing MFRC522 in the top of your script.
 
 ## License
 This code and examples are licensed under the GNU Lesser General Public License 3.0.
