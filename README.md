@@ -10,6 +10,8 @@ The RST pin on all inactive cards must be set LOW. Only one at a time may be set
 Pydub is being used to read audio files as response to RFID tag recognition. Run the following in terminal to install:
 "pip install pydub"
 
+The final code (4_modules_final.py) is prepared using pygame instead of pydub. We needed to run multiple channels of sound at arbitrary moment. For the sake of efficiency the pygame module offered this possibility without too much research time required.
+
 The following information is modified from the readme file provided by mxgxw.
 read, write, and dump data from a chip
 

@@ -23,8 +23,8 @@ for i in range(len(rstPins)):
     GPIO.output(rstPins[i], 0)
 
 #audio files. change for wherever you place them in the system
-audio1 = AudioSegment.from_file("/home/pi/audio_files/cow.wav")
-audio2 = AudioSegment.from_file("/home/pi/audio_files/cricket.wav")
+audio1 = AudioSegment.from_file("/home/pi/audio_files/duck.wav")
+audio2 = AudioSegment.from_file("/home/pi/audio_files/cow.wav")
 
 # Capture SIGINT for cleanup when the script is aborted
 def end_read(signal,frame):
